@@ -165,3 +165,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+/*Fix for WP-SCSS plugin compiling problem*/
+define('WP_SCSS_ALWAYS_RECOMPILE', true);
