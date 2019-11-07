@@ -3,6 +3,10 @@
 	display: block;
 	float: left;
 	width: 100%;
+	//Custom
+	font-family: $font__main;
+	font-weight: 700;
+	text-transform: uppercase;
 
 	ul {
 		display: none;
@@ -52,7 +56,7 @@
 	li {
 		float: left;
 		position: relative;
-
+		padding: .5rem;
 		&:hover > a,
 		&.focus > a {
 		}
@@ -76,7 +80,35 @@
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+//Custom Mobile Menu
+@media screen and (max-width: 769px) {
+	.menu-toggle {
+		z-index: 9999;
+		position: relative;
+	}
+	.main-navigation.toggled #primary-menu {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		background: black;
+		z-index: 9998;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.main-navigation.toggled ul {		
+		text-align: center;
+		li {
+			float: none;
+		}
+	}
+}
+
+// @media screen and (min-width: 37.5em)
+@media screen and (min-width: 769px) {
 	.menu-toggle {
 		display: none;
 	}

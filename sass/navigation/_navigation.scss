@@ -7,3 +7,11 @@
 ## Menus
 --------------------------------------------------------------*/
 @import "menus";
+
+.header-icon {
+    width: 40px;
+    height: 60px;
+    svg {
+        height: 100%;
+    }
+}
