@@ -65,6 +65,10 @@
 				) );
 				?>
 			</nav><!-- #site-navigation -->
+
+			<ul class="list-inline">
+				<li class="list-inline-item"><i class="fab fa-github"></i></li>
+			</ul>
 		</div>
 	</div>
 		

@@ -31,3 +31,14 @@ select {
 textarea {
 	width: 100%;
 }
+
+form label {
+	font-size: .85rem;
+	font-weight: 700;
+	width: 100%;
+	span input,
+	span textarea {
+		margin-top: .5rem;
+		width: 100%;
+	}
+}

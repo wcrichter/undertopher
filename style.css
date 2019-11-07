@@ -338,6 +338,11 @@ h1 {
   font-size: 3.5rem;
   font-weight: 700;
 }
+h2 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 1.75rem;
+}
 p {
   margin-bottom: 1.5em;
 }
@@ -463,6 +468,15 @@ select {
   border: 1px solid #ccc;
 }
 textarea {
+  width: 100%;
+}
+form label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  width: 100%;
+}
+form label span input, form label span textarea {
+  margin-top: 0.5rem;
   width: 100%;
 }
 /*--------------------------------------------------------------
@@ -694,6 +708,17 @@ a:hover, a:active {
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+.page-template-template-home {
+  background: url('/wp-content/themes/undertopher/img/svg/cr-logo-outline.svg') no-repeat 75% 80px / 360px auto;
+}
+#section-home-hero {
+  padding: 8rem 0;
+}
+#section-home-contact {
+  color: white;
+  background: #231f20;
+  padding: 8rem 0;
 }
 /*--------------------------------------------------------------
  ## Comments
