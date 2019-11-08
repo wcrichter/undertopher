@@ -343,6 +343,11 @@ h2 {
   font-weight: 700;
   margin-bottom: 1.75rem;
 }
+h3 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
 p {
   margin-bottom: 1.5em;
 }
@@ -708,6 +713,11 @@ a:hover, a:active {
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+@media (min-width: 1480px) {
+  .container {
+    min-width: 1400px;
+  }
 }
 .page-template-template-home {
   background: url('/wp-content/themes/undertopher/img/svg/cr-logo-outline.svg') no-repeat 75% 80px / 360px auto;

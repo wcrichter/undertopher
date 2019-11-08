@@ -2,6 +2,16 @@
 // Template Name: Home
 get_header();
 ?>
+<style>
+#section-home-work {
+    padding: 4rem 0;
+}
+.work-cat-preview {
+    width: 100%;
+    padding-top: 80%;
+    background: #231F20;
+}
+</style>
 <section id="section-home-hero">
     <div class="container">
         <div class="row">
@@ -10,6 +20,43 @@ get_header();
                     a Designer and Developer<br/>
                     from Charleston, SC.
                 </h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-home-work">
+    <div class="container">
+        <div class="row align-items-center py-5">
+            <div class="col-12 col-lg-6">
+                <div class="work-cat-preview work-cat-preview-web">
+
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 offset-lg-1">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+            </div>
+        </div>
+        <div class="row align-items-center py-5">
+            <div class="col-12 col-lg-4 offset-lg-1">
+                <h3>Logos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+            </div>
+            <div class="col-12 col-lg-6 offset-lg-1">
+                <div class="work-cat-preview work-cat-preview-web">
+
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center py-5">
+            <div class="col-12 col-lg-6">
+                <div class="work-cat-preview work-cat-preview-web">
+
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 offset-lg-1">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
             </div>
         </div>
     </div>

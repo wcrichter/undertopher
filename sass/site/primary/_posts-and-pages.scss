@@ -21,6 +21,13 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+//Bootstrap Customizations
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1480px) {
+	.container {
+		min-width: 1400px;
+	}
+}
 
 //Custom Pages
 .page-template-template-home {
