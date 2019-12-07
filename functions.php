@@ -171,3 +171,23 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 /*Fix for WP-SCSS plugin compiling problem*/
 define('WP_SCSS_ALWAYS_RECOMPILE', true);
+
+// Our custom post type function
+function create_posttype_work() {
+ 
+    register_post_type( 'work',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Work' ),
+                'singular_name' => __( 'Work' )
+            ),
+            'public' => true,
+			'has_archive' => false,
+			'menu_icon'   => 'dashicons-portfolio',
+            'rewrite' => array('slug' => 'work'),
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype_work' );
