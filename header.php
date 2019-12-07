@@ -25,12 +25,12 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'undertopher' ); ?></a>
 
 	<header id="masthead" class="site-header">
-	<div class="container">
-		<div class="d-flex align-items-center py-2 py-lg-4">
+
 			<div class="site-branding">
 				<?php
 				the_custom_logo(); ?>
@@ -69,8 +69,9 @@
 			<ul class="list-inline">
 				<li class="list-inline-item"><i class="fab fa-github"></i></li>
 			</ul>
-		</div>
-	</div>
+
+			
+			<a href="/contact" class="header-contact">Say Hello</a>
 		
 	</header><!-- #masthead -->
 
