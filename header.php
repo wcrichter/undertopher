@@ -69,9 +69,6 @@
 			<ul class="list-inline">
 				<li class="list-inline-item"><i class="fab fa-github"></i></li>
 			</ul>
-
-			
-			<a href="/contact" class="header-contact">Say Hello</a>
 		
 	</header><!-- #masthead -->
 
